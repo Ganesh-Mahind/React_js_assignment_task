@@ -1,15 +1,15 @@
-import React from "react";
-import DataTable from "./components/DataTable";
-import { Provider } from "react-redux";
-import { store } from "./store/store";
-import "./index.css"; 
+// src/App.jsx
+import React from 'react';
+import Dashboard from './components/Dashboard';
+import './index.css';
+import { Provider } from 'react-redux';
+import { store } from './store/store';
 
 function App() {
   return (
     <Provider store={store}>
-      <div>
-        <h1>React Table Application</h1>
-        <DataTable />
+      <div className="app-container">
+        <Dashboard />
       </div>
     </Provider>
   );

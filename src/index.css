@@ -1,32 +1,12 @@
-/* index.css */
+/* src/index.css */
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #e0f7fa; /* Light cyan background */
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f4f8; /* Light background */
 }
 
 .app-container {
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-/* Center the headline */
-h1 {
-  text-align: center;
-  width: 100%;
-}
-
-/* Responsive adjustments */
-@media (max-width: 600px) {
-  .app-container {
-    padding: 10px;
-  }
-  h1 {
-    font-size: 1.8rem;
-  }
+  height: 100vh;
 }
